@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Organizer - Home</title>
+    <title>Organizer - Login</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
 
 
 
-<body>
+<body id="login">
     <nav>
         <div class="navbar">
             <div class="title">
@@ -34,23 +34,23 @@
         </div>
     </nav>
 
-    <div class="priorities">
-        <div class="prio-ranking">
-            
-        </div>
+    <div class="login-form">
+        <h2>Login</h2>
+        <br />
+        <label for="uname">Username</label><br />
+        <input class="login-input" type="text" placeholder="" name="uname" required>
+        <br />
+        <br />
+        <label for="uname">Password</label><br />
+        <input class="login-input" type="text" placeholder="" name="uname" required>
+        <br />
+        <label>
+            <input class="remember-check" type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+        <br />
+        <button class="login-submit" type="submit">Login</button>
+
     </div>
-
-    <div class="all-widgets">
-        <div class="widget">
-            <p id="widget-title"><b>Fitness</b></p>
-        </div>
-
-        <div class="widget">
-            <p id="widget-title"><b>School</b></p>
-        </div>
-    </div>
-
     
-
 </body>
 </html>
