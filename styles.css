@@ -67,6 +67,7 @@ nav {
     background-color: #e5989b;
     color: #6d6875;
     padding: 15px;
+    border-bottom: 1px solid #6d6875;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     top: 0px;
