@@ -50,7 +50,46 @@
         <br />
         <button class="login-submit" type="submit">Login</button>
 
+
+
     </div>
+
+
     
 </body>
+
+<footer>
+    <br class="footer-divide" />
+    <div class="theme">
+
+        <div class="color-picker">
+            <p><b>Theme</b></p>
+            <button class="blue" onclick="blueTheme()"></button>
+            <button class="pink" onclick="pinkTheme()"></button>
+            <button class="purple" onclick="purpleTheme()"></button>
+        </div>
+    </div>
+</footer>
+
+
+<script>
+    function blueTheme() {
+        document.documentElement.style.setProperty('--style1', '#90e0ef');
+        document.documentElement.style.setProperty('--style2', '#03045e');
+        document.documentElement.style.setProperty('--style3', '#0096c7');
+        document.documentElement.style.setProperty('--style4', '#48cae4');
+    }
+    function pinkTheme() {
+        document.documentElement.style.setProperty('--style1', '#ffcdb2');
+        document.documentElement.style.setProperty('--style2', '#6d6875');
+        document.documentElement.style.setProperty('--style3', '#e5989b');
+        document.documentElement.style.setProperty('--style4', '#ffb4a2');
+    }
+    function purpleTheme() {
+        document.documentElement.style.setProperty('--style1', '#caa8f5'); // lightest
+        document.documentElement.style.setProperty('--style2', '#230c33'); // dark
+        document.documentElement.style.setProperty('--style3', '#9551d8'); // furthest from lightest
+        document.documentElement.style.setProperty('--style4', '#9984d4'); // between 1 and 3
+    }
+</script>
 </html>

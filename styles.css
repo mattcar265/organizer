@@ -152,21 +152,26 @@ a {
 }
 
 /* theme */
+
+
 footer {
-    background-color: red;
+    border-top: 5px dotted var(--style3);
 }
 
 .theme {
-    border-top: 1px solid var(--style2);
+    padding: 1px;
     background-color: var(--style4);
+    margin: auto;
+    width: 20%;
+    border-radius: 20px;
     bottom: 0px;
     margin-bottom: 0px;
-
-
+    text-align: center;
+    border: 1px solid var(--style2);
+    box-shadow: 2px 2px 4px var(--style2);
 }
 .color-picker {
     margin: 1em;
-
 }
 
 .blue {
